@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def mesclar_estoque(estoque1, estoque2):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(mesclar_estoque({'maçã': 10, 'banana': 5}, {'maçã': 3, 'laranja': 7}))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert mesclar_estoque({'maçã': 10, 'banana': 5}, {'maçã': 3, 'laranja': 7}) == {'maçã': 13, 'banana': 5, 'laranja': 7}
+assert mesclar_estoque({'pêra': 5}, {'pêra': 5, 'uva': 2}) == {'pêra': 10, 'uva': 2}
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
